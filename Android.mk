@@ -26,6 +26,10 @@ LOCAL_CFLAGS += \
         -Wno-unused-parameter \
         -Wno-unused-variable \
 
+ifeq ($(BOARD_HAVE_BCM_FM), true)
+LOCAL_CFLAGS += -DBLUEDROID_ENABLE_V4L2
+endif
+
 LOCAL_SRC_FILES := \
         src/bt_vendor_brcm.c \
         src/hardware.c \
