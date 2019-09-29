@@ -51,7 +51,7 @@
 
 /* Run-time configuration file */
 #ifndef VENDOR_LIB_CONF_FILE
-#define VENDOR_LIB_CONF_FILE "/etc/bluetooth/bt_vendor.conf"
+#define VENDOR_LIB_CONF_FILE "/vendor/etc/bluetooth/bt_vendor.conf"
 #endif
 
 /* Device port name where Bluetooth controller attached */
